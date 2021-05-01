@@ -1,0 +1,35 @@
+{
+  "name": "weblogix",
+  "version": "1.0.0",
+  "description": "Web based logix builder for Neos",
+  "main": "webpack.common.js",
+  "scripts": {
+    "test": "webpack-dev-server --config webpack.dev.js",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Faolan-Rad/WebLogiX.git"
+  },
+  "keywords": [
+    "LogiX",
+    "NeosVR"
+  ],
+  "author": "Faolan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Faolan-Rad/WebLogiX/issues"
+  },
+  "homepage": "https://github.com/Faolan-Rad/WebLogiX#readme",
+  "devDependencies": {
+    "ts-loader": "^9.1.1",
+    "typescript": "^4.2.4",
+    "webpack": "^5.36.2",
+    "webpack-cli": "^4.6.0"
+  },
+  "dependencies": {
+    "clean-webpack-plugin": "^4.0.0-alpha.0",
+    "html-webpack-plugin": "^5.3.1",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
